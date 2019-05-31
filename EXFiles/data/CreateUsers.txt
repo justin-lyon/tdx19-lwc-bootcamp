@@ -1,0 +1,30 @@
+List<User> users = new List<User>();
+String usernameRandomBit = String.valueOf(Math.random()).substring(2, 14);
+Id chatterProfileId = [SELECT Id FROM Profile WHERE Name = 'Chatter External User' LIMIT 1].Id;
+Id trainingProfileId = [SELECT Id FROM Profile WHERE Name = 'Training User' LIMIT 1].Id;
+
+// Training users
+users.add(new User(Alias = 'ELTOROIT', Email = 'ELTOROIT.awtraining@example.com', FirstName = 'Andres', LastName = 'Perez', ProfileId = trainingProfileId));
+
+// Instructors
+users.add(new User(Alias='AKATO', FirstName = 'Akira', LastName = 'Kato', Email = 'akato.awtraining@example.com', ProfileId = chatterProfileId, Is_Instructor__c = true));
+users.add(new User(Alias='EPETERS', FirstName = 'Eugene', LastName = 'Peters', Email = 'epeters.awtraining@example.com', ProfileId = chatterProfileId, Is_Instructor__c = true));
+users.add(new User(Alias='HROSEN', FirstName = 'Heidi', LastName = 'Rosen', Email = 'hrosen.awtraining@example.com', ProfileId = chatterProfileId, Is_Instructor__c = true));
+users.add(new User(Alias='KTRAN', FirstName = 'Kim', LastName = 'Tran', Email = 'ktran.awtraining@example.com', ProfileId = chatterProfileId, Is_Instructor__c = true));
+users.add(new User(Alias='PHUGHES', FirstName = 'Patrick', LastName = 'Hughes', Email = 'phughes.awtraining@example.com', ProfileId = chatterProfileId, Is_Instructor__c = true));
+users.add(new User(Alias='RMONTOYA', FirstName = 'Raymond', LastName = 'Montoya', Email = 'rmontoya.awtraining@example.com', ProfileId = chatterProfileId, Is_Instructor__c = true));
+users.add(new User(Alias='SVINCENT', FirstName = 'Sasha', LastName = 'Vincent', Email = 'svincent.awtraining@example.com', ProfileId = chatterProfileId, Is_Instructor__c = true));
+users.add(new User(Alias='VBOUDIN', FirstName = 'Viviane', LastName = 'Boudin', Email = 'vboudin.awtraining@example.com', ProfileId = chatterProfileId, Is_Instructor__c = true));
+
+// Populate other fields
+for (User u : users) {
+	u.CommunityNickname = u.Alias + '.awtraining';
+	u.EmailEncodingKey = 'ISO-8859-1';
+	u.LanguageLocaleKey = 'en_US';
+	u.LocaleSidKey = 'en_US';
+	u.TimeZoneSidKey = 'America/Los_Angeles';
+	u.Username = u.Alias + '.' + usernameRandomBit + '@awtraining.com';
+}
+
+// Perform the DML
+insert users;

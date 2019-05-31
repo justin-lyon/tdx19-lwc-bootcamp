@@ -1,0 +1,5 @@
+<aura:component implements="lightning:actionOverride, force:hasRecordId, force:hasSObjectName" access="global">
+
+	<c:courseAttendee recordId="{!v.recordId}"></c:courseAttendee>
+
+</aura:component>

@@ -1,0 +1,11 @@
+
+		if (instructorId == '') {
+			return new List<Course_Delivery__c>();
+		} else {
+			return [
+				SELECT Id, Start_Date__c, Location__c, Attendee_Count__c
+				FROM Course_Delivery__c
+				WHERE Instructor__c = :instructorId AND Status__c IN ('Enrolled','Completed','Delivered','Scheduled')
+				ORDER BY Start_Date__c DESC
+			];
+		}

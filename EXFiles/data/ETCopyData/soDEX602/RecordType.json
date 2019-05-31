@@ -1,0 +1,38 @@
+{
+	"fetched": 4,
+	"records": [
+		{
+			"attributes": {
+				"type": "RecordType",
+				"url": "/services/data/v45.0/sobjects/RecordType/012f0000000V9NeAAK"
+			},
+			"Id": "012f0000000V9NeAAK",
+			"DeveloperName": "Customer"
+		},
+		{
+			"attributes": {
+				"type": "RecordType",
+				"url": "/services/data/v45.0/sobjects/RecordType/012f0000000V9NfAAK"
+			},
+			"Id": "012f0000000V9NfAAK",
+			"DeveloperName": "Service_Vendor"
+		},
+		{
+			"attributes": {
+				"type": "RecordType",
+				"url": "/services/data/v45.0/sobjects/RecordType/012f0000000V9NgAAK"
+			},
+			"Id": "012f0000000V9NgAAK",
+			"DeveloperName": "Standard"
+		},
+		{
+			"attributes": {
+				"type": "RecordType",
+				"url": "/services/data/v45.0/sobjects/RecordType/012f0000000V9NhAAK"
+			},
+			"Id": "012f0000000V9NhAAK",
+			"DeveloperName": "Technician"
+		}
+	],
+	"total": 4
+}

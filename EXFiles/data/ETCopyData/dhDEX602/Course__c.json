@@ -1,0 +1,174 @@
+{
+	"fetched": 13,
+	"records": [
+		{
+			"attributes": {
+				"type": "Course__c",
+				"url": "/services/data/v44.0/sobjects/Course__c/a001U000001NegKQAS"
+			},
+			"Certification__c": "a031U000001WldPQAS",
+			"Course_Description__c": "Learn advanced techniques and best practices when installing and maintaining AW Computing's servers.",
+			"Duration__c": 5,
+			"Id": "a001U000001NegKQAS",
+			"Name": "[201] AWCP Server",
+			"Status__c": "Active"
+		},
+		{
+			"attributes": {
+				"type": "Course__c",
+				"url": "/services/data/v44.0/sobjects/Course__c/a001U000001NegLQAS"
+			},
+			"Certification__c": "a031U000001WldQQAS",
+			"Course_Description__c": "Learn the fundamentals of installing and maintaining AW Computing networks.",
+			"Duration__c": 4,
+			"Id": "a001U000001NegLQAS",
+			"Name": "[102] AWCA Network",
+			"Status__c": "Active"
+		},
+		{
+			"attributes": {
+				"type": "Course__c",
+				"url": "/services/data/v44.0/sobjects/Course__c/a001U000001NegMQAS"
+			},
+			"Certification__c": "a031U000001WldRQAS",
+			"Course_Description__c": "Learn the fundamentals of securing AW Computing networks.",
+			"Duration__c": 4,
+			"Id": "a001U000001NegMQAS",
+			"Name": "[103] AWCA Security",
+			"Status__c": "Active"
+		},
+		{
+			"attributes": {
+				"type": "Course__c",
+				"url": "/services/data/v44.0/sobjects/Course__c/a001U000001NegNQAS"
+			},
+			"Certification__c": "a031U000001WldSQAS",
+			"Course_Description__c": "Learn advanced troubleshooting techniques when installing and maintaining AW Computing networks.",
+			"Duration__c": 5,
+			"Id": "a001U000001NegNQAS",
+			"Name": "[302] AWCM Network",
+			"Status__c": "Active"
+		},
+		{
+			"attributes": {
+				"type": "Course__c",
+				"url": "/services/data/v44.0/sobjects/Course__c/a001U000001NegOQAS"
+			},
+			"Certification__c": "a031U000001WldTQAS",
+			"Course_Description__c": "Learn advanced techniques and best pratices when securing AW Computing networks.",
+			"Duration__c": 5,
+			"Id": "a001U000001NegOQAS",
+			"Name": "[203] AWCP Security",
+			"Status__c": "Active"
+		},
+		{
+			"attributes": {
+				"type": "Course__c",
+				"url": "/services/data/v44.0/sobjects/Course__c/a001U000001NegPQAS"
+			},
+			"Certification__c": "a031U000001WldUQAS",
+			"Course_Description__c": "Learn the fundamentals of installing and maintaining AW Computing's servers.",
+			"Duration__c": 4,
+			"Id": "a001U000001NegPQAS",
+			"Name": "[101] AWCA Server",
+			"Status__c": "Active"
+		},
+		{
+			"attributes": {
+				"type": "Course__c",
+				"url": "/services/data/v44.0/sobjects/Course__c/a001U000001NegQQAS"
+			},
+			"Certification__c": "a031U000001WldVQAS",
+			"Course_Description__c": "Learn advanced troubleshooting techniques when installing and maintaining AW Computing's servers.",
+			"Duration__c": 5,
+			"Id": "a001U000001NegQQAS",
+			"Name": "[301] AWCM Server",
+			"Status__c": "Active"
+		},
+		{
+			"attributes": {
+				"type": "Course__c",
+				"url": "/services/data/v44.0/sobjects/Course__c/a001U000001NegRQAS"
+			},
+			"Certification__c": "a031U000001WldWQAS",
+			"Course_Description__c": "Learn advanced troubleshooting techniques when securing AW Computing networks.",
+			"Duration__c": 5,
+			"Id": "a001U000001NegRQAS",
+			"Name": "[303] AWCM Security",
+			"Status__c": "Active"
+		},
+		{
+			"attributes": {
+				"type": "Course__c",
+				"url": "/services/data/v44.0/sobjects/Course__c/a001U000001NegSQAS"
+			},
+			"Certification__c": "a031U000001WldXQAS",
+			"Course_Description__c": "Learn advanced techniques and best practices when installing and maintaining AW Computing networks.",
+			"Duration__c": 5,
+			"Id": "a001U000001NegSQAS",
+			"Name": "[202] AWCP Network",
+			"Status__c": "Active"
+		},
+		{
+			"attributes": {
+				"type": "Course__c",
+				"url": "/services/data/v44.0/sobjects/Course__c/a001U000001NegTQAS"
+			},
+			"Certification__c": null,
+			"Course_Description__c": "Learn techniques and best practices around data recovery.",
+			"Duration__c": 3,
+			"Id": "a001U000001NegTQAS",
+			"Name": "[401] Data Recovery",
+			"Status__c": "Active"
+		},
+		{
+			"attributes": {
+				"type": "Course__c",
+				"url": "/services/data/v44.0/sobjects/Course__c/a001U000001NegUQAS"
+			},
+			"Certification__c": null,
+			"Course_Description__c": "Learn techniques and best practices around managing network load.",
+			"Duration__c": 3,
+			"Id": "a001U000001NegUQAS",
+			"Name": "[402] Managing Network Load",
+			"Status__c": "Active"
+		},
+		{
+			"attributes": {
+				"type": "Course__c",
+				"url": "/services/data/v44.0/sobjects/Course__c/a001U000001O5EbQAK"
+			},
+			"Certification__c": null,
+			"Course_Description__c": null,
+			"Duration__c": 5,
+			"Id": "a001U000001O5EbQAK",
+			"Name": "[DEX601] Programming Lightning Aura Components",
+			"Status__c": "Active"
+		},
+		{
+			"attributes": {
+				"type": "Course__c",
+				"url": "/services/data/v44.0/sobjects/Course__c/a001U000001O5EcQAK"
+			},
+			"Certification__c": null,
+			"Course_Description__c": null,
+			"Duration__c": 5,
+			"Id": "a001U000001O5EcQAK",
+			"Name": "[DEX602] Programming Lightning Web Components",
+			"Status__c": "Active"
+		},
+		{
+			"attributes": {
+				"type": "Course__c",
+				"url": "/services/data/v44.0/sobjects/Course__c/a001U000001O5EWQA0"
+			},
+			"Certification__c": "a031U000001Y8ZrQAK",
+			"Course_Description__c": null,
+			"Duration__c": 5,
+			"Id": "a001U000001O5EWQA0",
+			"Name": "[DEX450] Programmatic Development Using Apex and Visualforce",
+			"Status__c": "Active"
+		}
+	],
+	"total": 13
+}

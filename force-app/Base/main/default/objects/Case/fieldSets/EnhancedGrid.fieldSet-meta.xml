@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FieldSet xmlns="http://soap.sforce.com/2006/04/metadata">
+	<fullName>EnhancedGrid</fullName>
+	<description>When demoing the Enhanced Grid Lightning Component from AppExchange by Salesforce Labs as part of DEX602 course.</description>
+	<displayedFields>
+		<field>CaseNumber</field>
+		<isFieldManaged>false</isFieldManaged>
+		<isRequired>false</isRequired>
+	</displayedFields>
+	<displayedFields>
+		<field>Subject</field>
+		<isFieldManaged>false</isFieldManaged>
+		<isRequired>false</isRequired>
+	</displayedFields>
+	<displayedFields>
+		<field>Status</field>
+		<isFieldManaged>false</isFieldManaged>
+		<isRequired>false</isRequired>
+	</displayedFields>
+	<displayedFields>
+		<field>Type</field>
+		<isFieldManaged>false</isFieldManaged>
+		<isRequired>false</isRequired>
+	</displayedFields>
+	<displayedFields>
+		<field>CreatedDate</field>
+		<isFieldManaged>false</isFieldManaged>
+		<isRequired>false</isRequired>
+	</displayedFields>
+	<displayedFields>
+		<field>ClosedDate</field>
+		<isFieldManaged>false</isFieldManaged>
+		<isRequired>false</isRequired>
+	</displayedFields>
+	<label>EnhancedGrid</label>
+</FieldSet>

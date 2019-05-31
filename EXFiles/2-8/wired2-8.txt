@@ -1,0 +1,19 @@
+wired_getDeliveriesByInstructor({ error, data }) {
+	this.deliveries = [];
+	if (data) {
+		if (this.selectedInstructorId) {
+			this.deliveries.push({
+				value: "",
+				label: "Any delivery"
+			});
+		}
+		data.forEach(delivery => {
+			this.deliveries.push({
+				value: delivery.Id,
+				label: `${delivery.Start_Date__c} ${delivery.Location__c} ${delivery.Attendee_Count__c} students`
+			});
+		});
+	} else if (error) {
+		this.error = error;
+	}
+}

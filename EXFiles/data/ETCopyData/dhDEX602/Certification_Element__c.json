@@ -1,0 +1,171 @@
+{
+	"fetched": 15,
+	"records": [
+		{
+			"attributes": {
+				"type": "Certification_Element__c",
+				"url": "/services/data/v44.0/sobjects/Certification_Element__c/a051U000000fBG1QAM"
+			},
+			"Certification__c": "a031U000001WldUQAS",
+			"Description__c": "60 question multiple choice exam",
+			"Id": "a051U000000fBG1QAM",
+			"Name": "AWCA Server Multiple Choice",
+			"Type__c": "Multiple Choice"
+		},
+		{
+			"attributes": {
+				"type": "Certification_Element__c",
+				"url": "/services/data/v44.0/sobjects/Certification_Element__c/a051U000000fBG2QAM"
+			},
+			"Certification__c": "a031U000001WldQQAS",
+			"Description__c": "60 question multiple choice exam.",
+			"Id": "a051U000000fBG2QAM",
+			"Name": "AWCA Network Multiple Choice",
+			"Type__c": "Multiple Choice"
+		},
+		{
+			"attributes": {
+				"type": "Certification_Element__c",
+				"url": "/services/data/v44.0/sobjects/Certification_Element__c/a051U000000fBG3QAM"
+			},
+			"Certification__c": "a031U000001WldRQAS",
+			"Description__c": "60 question multiple choice exam",
+			"Id": "a051U000000fBG3QAM",
+			"Name": "AWCA Security Multiple Choice",
+			"Type__c": "Multiple Choice"
+		},
+		{
+			"attributes": {
+				"type": "Certification_Element__c",
+				"url": "/services/data/v44.0/sobjects/Certification_Element__c/a051U000000fBG4QAM"
+			},
+			"Certification__c": "a031U000001WldSQAS",
+			"Description__c": "90 question multiple choice exam",
+			"Id": "a051U000000fBG4QAM",
+			"Name": "AWCM Network Multiple Choice",
+			"Type__c": "Multiple Choice"
+		},
+		{
+			"attributes": {
+				"type": "Certification_Element__c",
+				"url": "/services/data/v44.0/sobjects/Certification_Element__c/a051U000000fBG5QAM"
+			},
+			"Certification__c": "a031U000001WldSQAS",
+			"Description__c": "Lab-based exam",
+			"Id": "a051U000000fBG5QAM",
+			"Name": "AWCM Network Lab",
+			"Type__c": "Lab"
+		},
+		{
+			"attributes": {
+				"type": "Certification_Element__c",
+				"url": "/services/data/v44.0/sobjects/Certification_Element__c/a051U000000fBG6QAM"
+			},
+			"Certification__c": "a031U000001WldWQAS",
+			"Description__c": "90 question multiple choice exam",
+			"Id": "a051U000000fBG6QAM",
+			"Name": "AWCM Security Multiple Choice",
+			"Type__c": "Multiple Choice"
+		},
+		{
+			"attributes": {
+				"type": "Certification_Element__c",
+				"url": "/services/data/v44.0/sobjects/Certification_Element__c/a051U000000fBG7QAM"
+			},
+			"Certification__c": "a031U000001WldTQAS",
+			"Description__c": "Lab-based exam",
+			"Id": "a051U000000fBG7QAM",
+			"Name": "AWCP Security Lab",
+			"Type__c": "Lab"
+		},
+		{
+			"attributes": {
+				"type": "Certification_Element__c",
+				"url": "/services/data/v44.0/sobjects/Certification_Element__c/a051U000000fBG8QAM"
+			},
+			"Certification__c": "a031U000001WldWQAS",
+			"Description__c": "Lab-based exam",
+			"Id": "a051U000000fBG8QAM",
+			"Name": "AWCM Security Lab",
+			"Type__c": "Lab"
+		},
+		{
+			"attributes": {
+				"type": "Certification_Element__c",
+				"url": "/services/data/v44.0/sobjects/Certification_Element__c/a051U000000fBG9QAM"
+			},
+			"Certification__c": "a031U000001WldVQAS",
+			"Description__c": "90 question multiple choice exam",
+			"Id": "a051U000000fBG9QAM",
+			"Name": "AWCM Server Multiple Choice",
+			"Type__c": "Multiple Choice"
+		},
+		{
+			"attributes": {
+				"type": "Certification_Element__c",
+				"url": "/services/data/v44.0/sobjects/Certification_Element__c/a051U000000fBGAQA2"
+			},
+			"Certification__c": "a031U000001WldVQAS",
+			"Description__c": "Lab-based exam",
+			"Id": "a051U000000fBGAQA2",
+			"Name": "AWCM Server Lab",
+			"Type__c": "Lab"
+		},
+		{
+			"attributes": {
+				"type": "Certification_Element__c",
+				"url": "/services/data/v44.0/sobjects/Certification_Element__c/a051U000000fBGBQA2"
+			},
+			"Certification__c": "a031U000001WldXQAS",
+			"Description__c": "90 question multiple choice exam",
+			"Id": "a051U000000fBGBQA2",
+			"Name": "AWCP Network Multiple Choice",
+			"Type__c": "Multiple Choice"
+		},
+		{
+			"attributes": {
+				"type": "Certification_Element__c",
+				"url": "/services/data/v44.0/sobjects/Certification_Element__c/a051U000000fBGCQA2"
+			},
+			"Certification__c": "a031U000001WldXQAS",
+			"Description__c": "lab-based exam",
+			"Id": "a051U000000fBGCQA2",
+			"Name": "AWCP Network Lab",
+			"Type__c": "Lab"
+		},
+		{
+			"attributes": {
+				"type": "Certification_Element__c",
+				"url": "/services/data/v44.0/sobjects/Certification_Element__c/a051U000000fBGDQA2"
+			},
+			"Certification__c": "a031U000001WldTQAS",
+			"Description__c": "90 question multiple choice exam",
+			"Id": "a051U000000fBGDQA2",
+			"Name": "AWCP Security Multiple Choice",
+			"Type__c": "Multiple Choice"
+		},
+		{
+			"attributes": {
+				"type": "Certification_Element__c",
+				"url": "/services/data/v44.0/sobjects/Certification_Element__c/a051U000000fBGEQA2"
+			},
+			"Certification__c": "a031U000001WldPQAS",
+			"Description__c": "90 question multiple choice exam",
+			"Id": "a051U000000fBGEQA2",
+			"Name": "AWCP Server Multiple Choice",
+			"Type__c": "Multiple Choice"
+		},
+		{
+			"attributes": {
+				"type": "Certification_Element__c",
+				"url": "/services/data/v44.0/sobjects/Certification_Element__c/a051U000000fBGFQA2"
+			},
+			"Certification__c": "a031U000001WldPQAS",
+			"Description__c": "Lab-based exam",
+			"Id": "a051U000000fBGFQA2",
+			"Name": "AWCP Server Lab",
+			"Type__c": "Lab"
+		}
+	],
+	"total": 15
+}

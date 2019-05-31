@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+	<defaultLandingTab>Certification__c</defaultLandingTab>
+	<description>Application used to track the training and certification of technicians.</description>
+	<isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+	<isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+	<label>Certification</label>
+	<tabs>standard-Chatter</tabs>
+	<tabs>standard-Account</tabs>
+	<tabs>standard-Contact</tabs>
+	<tabs>Certification__c</tabs>
+	<tabs>Course__c</tabs>
+	<tabs>Course_Delivery__c</tabs>
+	<tabs>standard-File</tabs>
+	<tabs>standard-report</tabs>
+	<tabs>standard-Dashboard</tabs>
+	<tabs>TripReport__c</tabs>
+</CustomApplication>

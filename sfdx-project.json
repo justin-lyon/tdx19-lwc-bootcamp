@@ -1,0 +1,15 @@
+{
+	"packageDirectories": [
+		{
+			"path": "force-app/Exercises",
+			"default": true
+		},
+		{
+			"path": "force-app/Base",
+			"default": false
+		}
+	],
+	"namespace": "",
+	"sfdcLoginUrl": "https://login.salesforce.com",
+	"sourceApiVersion": "45.0"
+}

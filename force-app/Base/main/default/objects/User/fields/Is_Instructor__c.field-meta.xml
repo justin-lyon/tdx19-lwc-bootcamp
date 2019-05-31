@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+	<fullName>Is_Instructor__c</fullName>
+	<defaultValue>false</defaultValue>
+	<description>Specifies whether or not a user is an instructor. This field is used to filter user records when selecting the Instructor for a course delivery. It is also used to filter user records when selecting the Certifying Instructor for a certification attempt.</description>
+	<externalId>false</externalId>
+	<inlineHelpText>Select this checkbox if the user is an instructor.</inlineHelpText>
+	<label>Instructor?</label>
+	<trackFeedHistory>false</trackFeedHistory>
+	<type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,78 @@
+{
+	"fetched": 9,
+	"records": [
+		{
+			"attributes": {
+				"type": "RecordType",
+				"url": "/services/data/v44.0/sobjects/RecordType/0121U000000oSLyQAM"
+			},
+			"Id": "0121U000000oSLyQAM",
+			"DeveloperName": "Technician"
+		},
+		{
+			"attributes": {
+				"type": "RecordType",
+				"url": "/services/data/v44.0/sobjects/RecordType/0121U000000oSLzQAM"
+			},
+			"Id": "0121U000000oSLzQAM",
+			"DeveloperName": "Standard"
+		},
+		{
+			"attributes": {
+				"type": "RecordType",
+				"url": "/services/data/v44.0/sobjects/RecordType/0121U000000oSM0QAM"
+			},
+			"Id": "0121U000000oSM0QAM",
+			"DeveloperName": "New_Add_On_Business"
+		},
+		{
+			"attributes": {
+				"type": "RecordType",
+				"url": "/services/data/v44.0/sobjects/RecordType/0121U000000oSM1QAM"
+			},
+			"Id": "0121U000000oSM1QAM",
+			"DeveloperName": "Service_Vendor"
+		},
+		{
+			"attributes": {
+				"type": "RecordType",
+				"url": "/services/data/v44.0/sobjects/RecordType/0121U000000oSM2QAM"
+			},
+			"Id": "0121U000000oSM2QAM",
+			"DeveloperName": "Customer"
+		},
+		{
+			"attributes": {
+				"type": "RecordType",
+				"url": "/services/data/v44.0/sobjects/RecordType/0121U000000oSM3QAM"
+			},
+			"Id": "0121U000000oSM3QAM",
+			"DeveloperName": "Product_Support"
+		},
+		{
+			"attributes": {
+				"type": "RecordType",
+				"url": "/services/data/v44.0/sobjects/RecordType/0121U000000oSM4QAM"
+			},
+			"Id": "0121U000000oSM4QAM",
+			"DeveloperName": "Change_Request"
+		},
+		{
+			"attributes": {
+				"type": "RecordType",
+				"url": "/services/data/v44.0/sobjects/RecordType/0121U000000oSM5QAM"
+			},
+			"Id": "0121U000000oSM5QAM",
+			"DeveloperName": "Lab"
+		},
+		{
+			"attributes": {
+				"type": "RecordType",
+				"url": "/services/data/v44.0/sobjects/RecordType/0121U000000oSM6QAM"
+			},
+			"Id": "0121U000000oSM6QAM",
+			"DeveloperName": "Multiple_Choice"
+		}
+	],
+	"total": 9
+}

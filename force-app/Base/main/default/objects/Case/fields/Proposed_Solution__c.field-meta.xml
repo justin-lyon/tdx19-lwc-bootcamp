@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+	<fullName>Proposed_Solution__c</fullName>
+	<description>Proposed solution for the change request.</description>
+	<externalId>false</externalId>
+	<inlineHelpText>Enter a proposed solution for the AW Computing org change request.</inlineHelpText>
+	<label>Proposed Solution</label>
+	<length>32768</length>
+	<trackFeedHistory>false</trackFeedHistory>
+	<trackHistory>false</trackHistory>
+	<trackTrending>false</trackTrending>
+	<type>Html</type>
+	<visibleLines>25</visibleLines>
+</CustomField>

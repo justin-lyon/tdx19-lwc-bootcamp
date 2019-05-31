@@ -1,0 +1,32 @@
+{
+	"fetched": 2,
+	"records": [
+		{
+			"attributes": {
+				"type": "TripReport__c",
+				"url": "/services/data/v44.0/sobjects/TripReport__c/a071U000000cIaHQAU"
+			},
+			"Date__c": "2018-06-06",
+			"Id": "a071U000000cIaHQAU",
+			"Instructor__c": "0051U000000ab86QAA",
+			"Name": "Lightning Now Tour 2018",
+			"Rating__c": 5,
+			"ReviewType__c": "Students",
+			"Review__c": "<p>First time delivering training in Australia, it was a blast! The students were awesome and gave lots of pointers on visiting the city.</p>"
+		},
+		{
+			"attributes": {
+				"type": "TripReport__c",
+				"url": "/services/data/v44.0/sobjects/TripReport__c/a071U000000cIaCQAU"
+			},
+			"Date__c": "2018-10-03",
+			"Id": "a071U000000cIaCQAU",
+			"Instructor__c": "0051U000000ab86QAA",
+			"Name": "Deliver DEX602 @ Miami, FL.",
+			"Rating__c": 5,
+			"ReviewType__c": "Restaurant",
+			"Review__c": "<p>This city has the best <b>Colombian </b>restaurants in the states!</p>"
+		}
+	],
+	"total": 2
+}

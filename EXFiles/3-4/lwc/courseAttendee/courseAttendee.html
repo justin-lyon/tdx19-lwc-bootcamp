@@ -1,0 +1,19 @@
+<template>
+	<lightning-card if:true={attendee} title={attendee.cardTitle}>
+		<lightning-button variant="neutral" label="Edit" onclick={onEdit} slot="actions">
+		</lightning-button>
+
+		<lightning-layout horizontal-align="left">
+			<lightning-layout-item class="slds-align_absolute-center slds-p-horizontal_small" flexibility="shrink">
+				<c-student-tile student={attendee.studentTile}></c-student-tile>
+			</lightning-layout-item>
+			<lightning-layout-item flexibility="grow">
+				<lightning-record-view-form record-id={attendee.studentId} object-api-name="Contact">
+					<lightning-output-field field-name="Name"></lightning-output-field>
+					<lightning-output-field field-name="Email"></lightning-output-field>
+					<lightning-output-field field-name="Phone"></lightning-output-field>
+				</lightning-record-view-form>
+			</lightning-layout-item>
+		</lightning-layout>
+	</lightning-card>
+</template>

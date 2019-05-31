@@ -1,0 +1,2 @@
+
+		return [SELECT Id, Name FROM User WHERE Is_Instructor__c = true ORDER BY Name];

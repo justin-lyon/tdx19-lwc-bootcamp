@@ -1,0 +1,9 @@
+
+	<lightning:layout>
+		<lightning:layoutItem flexibility="auto" padding="around-small" size="8">
+			<c:studentBrowser />
+		</lightning:layoutItem>
+		<lightning:layoutItem flexibility="auto" padding="around-small" size="4">
+			<c:studentDetail />
+		</lightning:layoutItem>
+	</lightning:layout>

@@ -1,0 +1,38 @@
+<template>
+  <div class="slds-m-bottom_small">
+    <lightning-card
+      title="Filter Students"
+      icon-name="utility:search">
+
+      <lightning-layout horizontal-align="center">
+        <lightning-layout-item padding="around-small" size="4">
+          <lightning-combobox
+            name="instructor"
+            label="Select Instructor"
+            variant="label-hidden"
+            options={instructors}
+            value={selectedInstructorId}
+            onchange={onInstructorChange}
+            placeholder="Select an Instructor"></lightning-combobox>
+        </lightning-layout-item>
+        <lightning-layout-item padding="around-small" size="4">
+          <lightning-combobox
+            name="deliverySelector"
+            label="Select Delivery"
+            variant="label-hidden"
+            options={deliveries}
+            value={selectedDeliveryId}
+            onchange={onDeliveryChange}
+            placeholder="Select a Delivery"></lightning-combobox>
+        </lightning-layout-item>
+        <lightning-layout-item padding="around-small">
+          <lightning-button
+            label="Add New Delivery"
+            disabled={isButtonDisabled}
+            onclick={onAddNewDelivery}
+            variant="brand"></lightning-button>
+        </lightning-layout-item>
+      </lightning-layout>
+    </lightning-card>
+  </div>
+</template>

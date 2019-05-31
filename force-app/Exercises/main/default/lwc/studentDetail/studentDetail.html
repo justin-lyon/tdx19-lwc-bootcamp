@@ -1,0 +1,12 @@
+<template>
+    <lightning-card if:true={studentId}>
+      <div class="slds-m-horizontal_small">
+        <lightning-record-form
+          record-id={studentId}
+          fields={fields}
+          object-api-name="Contact"
+          mode="view"
+          columns="2"></lightning-record-form>
+      </div>
+    </lightning-card>
+</template>

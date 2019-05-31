@@ -1,0 +1,11 @@
+<template>
+  <c-student-browser-form
+    onselected={deliverySelected}></c-student-browser-form>
+  <lightning-tabset variant="scoped">
+    <lightning-tab label="Gallery">
+      <c-student-tiles
+        student-list={students.data}
+        onstudentselected={handleNotify}></c-student-tiles>
+    </lightning-tab>
+  </lightning-tabset>
+</template>

@@ -36,6 +36,7 @@ export default class StudentBrowser extends LightningElement {
   }
 
   handleNotify (event) {
+    event.stopPropagation()
     const studentId = event.detail.studentId
     fireEvent(this.pageRef, 'studentChange', { studentId })
   }

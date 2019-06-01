@@ -1,11 +1,14 @@
 <template>
+
   <c-student-browser-form
     onselected={deliverySelected}></c-student-browser-form>
-  <lightning-tabset variant="scoped">
-    <lightning-tab label="Gallery">
-      <c-student-tiles
-        student-list={students.data}
-        onstudentselected={handleNotify}></c-student-tiles>
-    </lightning-tab>
-  </lightning-tabset>
+  <div onstudentselected={handleNotify}>
+    <lightning-tabset variant="scoped">
+      <lightning-tab label="Gallery">
+        <c-student-tiles
+          student-list={students.data}></c-student-tiles>
+          <!-- onstudentselected={handleNotify} moved from tiles to parent div -->
+      </lightning-tab>
+    </lightning-tabset>
+  </div>
 </template>

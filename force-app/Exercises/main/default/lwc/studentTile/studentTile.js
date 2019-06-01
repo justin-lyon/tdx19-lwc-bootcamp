@@ -12,7 +12,7 @@ export default class StudentTile extends LightningElement {
   studentClick () {
     const selectedEvent = new CustomEvent('studentselected', {
       bubbles: true,
-      composed: true,
+      // composed: true,
       detail: { studentId: this.student.Id }
     })
     this.dispatchEvent(selectedEvent)

@@ -1,0 +1,6 @@
+<aura:component
+  implements="flexipage:availableForAllPageTypes, force:lightningQuickAction"
+  access="global">
+
+  <c:locationComponent/>
+</aura:component>

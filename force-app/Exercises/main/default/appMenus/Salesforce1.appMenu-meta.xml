@@ -17,6 +17,10 @@
         <type>CustomTab</type>
     </appMenuItems>
     <appMenuItems>
+        <name>Location_Component</name>
+        <type>CustomTab</type>
+    </appMenuItems>
+    <appMenuItems>
         <name>MyDay</name>
         <type>StandardAppMenuItem</type>
     </appMenuItems>

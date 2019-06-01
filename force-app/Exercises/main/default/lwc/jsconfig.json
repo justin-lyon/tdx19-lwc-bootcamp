@@ -3,11 +3,20 @@
         "experimentalDecorators": true,
         "baseUrl": ".",
         "paths": {
+            "c/locationComponent": [
+                "locationComponent/locationComponent.js"
+            ],
+            "c/pubsub": [
+                "pubsub/pubsub.js"
+            ],
             "c/studentBrowser": [
                 "studentBrowser/studentBrowser.js"
             ],
             "c/studentBrowserForm": [
                 "studentBrowserForm/studentBrowserForm.js"
+            ],
+            "c/studentDetail": [
+                "studentDetail/studentDetail.js"
             ],
             "c/studentTile": [
                 "studentTile/studentTile.js"
@@ -15,8 +24,11 @@
             "c/studentTiles": [
                 "studentTiles/studentTiles.js"
             ],
-            "c/studentDetail": [
-                "studentDetail/studentDetail.js"
+            "c/map": [
+                "map/map.js"
+            ],
+            "c/AwInstructors": [
+                "AwInstructors/AwInstructors.js"
             ]
         }
     },
